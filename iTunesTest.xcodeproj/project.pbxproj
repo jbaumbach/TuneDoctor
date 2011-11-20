@@ -13,6 +13,7 @@
 		F66212C014784B1300A2FE6C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F66212BE14784B1300A2FE6C /* Credits.rtf */; };
 		F66212C314784B1300A2FE6C /* ErgoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F66212C214784B1300A2FE6C /* ErgoAppDelegate.m */; };
 		F66212C614784B1300A2FE6C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66212C414784B1300A2FE6C /* MainMenu.xib */; };
+		F66212CE14784E6D00A2FE6C /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66212CD14784E6D00A2FE6C /* ScriptingBridge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		F66212B214784B1200A2FE6C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		F66212B314784B1200A2FE6C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F66212B414784B1200A2FE6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F66212B714784B1200A2FE6C /* iTunesTest-Info.plist */ = {isa = PBXFileReference; path = "iTunesTest-Info.plist"; sourceTree = "<group>"; };
+		F66212B714784B1200A2FE6C /* iTunesTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTunesTest-Info.plist"; sourceTree = "<group>"; };
 		F66212B914784B1200A2FE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F66212BB14784B1200A2FE6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F66212BD14784B1200A2FE6C /* iTunesTest-Prefix.pch */ = {isa = PBXFileReference; path = "iTunesTest-Prefix.pch"; sourceTree = "<group>"; };
+		F66212BD14784B1200A2FE6C /* iTunesTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTunesTest-Prefix.pch"; sourceTree = "<group>"; };
 		F66212BF14784B1300A2FE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		F66212C114784B1300A2FE6C /* ErgoAppDelegate.h */ = {isa = PBXFileReference; path = ErgoAppDelegate.h; sourceTree = "<group>"; };
+		F66212C114784B1300A2FE6C /* ErgoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ErgoAppDelegate.h; sourceTree = "<group>"; };
 		F66212C214784B1300A2FE6C /* ErgoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ErgoAppDelegate.m; sourceTree = "<group>"; };
 		F66212C514784B1300A2FE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F66212CC14784DEC00A2FE6C /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		F66212CD14784E6D00A2FE6C /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +40,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F66212B014784B1200A2FE6C /* Cocoa.framework in Frameworks */,
+				F66212CE14784E6D00A2FE6C /* ScriptingBridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +67,7 @@
 		F66212AE14784B1200A2FE6C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F66212CD14784E6D00A2FE6C /* ScriptingBridge.framework */,
 				F66212AF14784B1200A2FE6C /* Cocoa.framework */,
 				F66212B114784B1200A2FE6C /* Other Frameworks */,
 			);
@@ -82,6 +87,7 @@
 		F66212B514784B1200A2FE6C /* iTunesTest */ = {
 			isa = PBXGroup;
 			children = (
+				F66212CC14784DEC00A2FE6C /* iTunes.h */,
 				F66212C114784B1300A2FE6C /* ErgoAppDelegate.h */,
 				F66212C214784B1300A2FE6C /* ErgoAppDelegate.m */,
 				F66212C414784B1300A2FE6C /* MainMenu.xib */,
@@ -248,10 +254,13 @@
 		F66212CA14784B1300A2FE6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iTunesTest/iTunesTest-Prefix.pch";
 				INFOPLIST_FILE = "iTunesTest/iTunesTest-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "x86_64 i386";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -259,10 +268,12 @@
 		F66212CB14784B1300A2FE6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iTunesTest/iTunesTest-Prefix.pch";
 				INFOPLIST_FILE = "iTunesTest/iTunesTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "x86_64 i386";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
