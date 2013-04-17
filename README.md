@@ -14,7 +14,7 @@ You can fix it manually yourself by playing each song, one by one.  That works, 
 
 Getting TuneDoctor
 ------------------
-If you're lazy like me, you just want to download and run the program.  Unfortunately, Github doesn't like large binaries anymore so I'm looking at alternatives.  In the meantime, I've you're handy with XCode you can pretty easily make the app.  You need:
+If you're lazy like me, you just want to download and run the program.  Unfortunately, Github doesn't like large binaries anymore so I'm looking at alternatives.  In the meantime, if you're handy with XCode you can pretty easily make the app.  You need:
 
 * Mac OSX 10.6 or above / 64-bit
 * iTunes 10.0 or above (may work on older versions as well)
