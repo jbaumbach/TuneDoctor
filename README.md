@@ -25,11 +25,11 @@ Using TuneDoctor
 ----------------
 Using TuneDoctor is reasonably easy.  
 
-# Ensure the device(s) holding your songs is powered up and accessible by your Mac.
-# The connection to your song storage device should be hard-wired - no WiFi.  Otherwise the process will take too long.
-# Open iTunes and select some songs with exclamation points next to them.  For the first run, only select a handfull of songs to get a good idea of your performance.
-# Run the program and make sure the songs show up in the interface.  If not, click "Refresh".
-# Click the "Clear Exclamations!" button and watch the magic.
+1. Ensure the device(s) holding your songs is powered up and accessible by your Mac.
+1. The connection to your song storage device should be hard-wired - no WiFi.  Otherwise the process will take too long.
+1. Open iTunes and select some songs with exclamation points next to them.  For the first run, only select a handfull of songs to get a good idea of your performance.
+1. Run the program and make sure the songs show up in the interface.  If not, click "Refresh".
+1. Click the "Clear Exclamations!" button and watch the magic.
 
 After the program runs, the exclamantion points should be gone.  You can then get these files to sync up to your iPhone.
 
