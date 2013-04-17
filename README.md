@@ -1,6 +1,8 @@
 TuneDoctor
 ==========
 
+![Tune Doctor Screenshot](tunedoctor-screenshot.png "Screenshot")
+
 The Problem
 -----------
 For those of us with massive iTunes music libraries located on external storage like a NAS, using iTunes can be a headache.  When manipulating your songs, if the NAS is in powersaving mode then iTunes will think your songs are missing!  It then puts a nice little explamation point next to the song title and it won't sync with your phone anymore.
