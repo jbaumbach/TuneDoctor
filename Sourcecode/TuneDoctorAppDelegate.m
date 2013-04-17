@@ -30,7 +30,9 @@
 @synthesize progressIndicator = _progressIndicator;
 @synthesize itunesApp;
 
-
+//
+// Free up some stuff
+//
 - (void)dealloc
 {
     [selectedTracks release];
@@ -39,10 +41,12 @@
     [super dealloc];
 }
 
+//
+// Program launched - init some ui elements
+//
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     [self setStatus:@"Loading..."];
-    
     [self getITunesSelections];
     
     _selectionTable.dataSource = self;
@@ -152,7 +156,7 @@
 #pragma mark - Table stuff
 
 //
-// Get the numberof rows in the table
+// Get the number of rows in the table
 //
 -(NSInteger)numberOfRowsInTableView:(NSTableView *)tableView
 {
@@ -227,16 +231,6 @@
         
         [self setStatus:[NSString stringWithFormat:@"Refreshing: %@", selectedTrack.name] withProgress:100.0f * ((double) currentTrack++ / (double)selectedTracks.count)];
 
-        //
-        // Not sure if any of this works. Just trying to do anything to get
-        // itunes to "refind" the song.
-        //
-        /*
-        [selectedTrack refresh];
-        NSLog(@"Exists? %d", [selectedTrack exists]);
-        [selectedTrack open];
-        */
-        
         //
         // The location value being nil means there's an exlamation point next to the title.  Let's
         // start playing the track.  If it's found by iTunes, the exclamation point goes away.
