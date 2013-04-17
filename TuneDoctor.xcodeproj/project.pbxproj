@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F66212B014784B1200A2FE6C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66212AF14784B1200A2FE6C /* Cocoa.framework */; };
+		F66212BA14784B1200A2FE6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F66212B814784B1200A2FE6C /* InfoPlist.strings */; };
+		F66212BC14784B1200A2FE6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F66212BB14784B1200A2FE6C /* main.m */; };
+		F66212C014784B1300A2FE6C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F66212BE14784B1300A2FE6C /* Credits.rtf */; };
+		F66212C314784B1300A2FE6C /* TuneDoctorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F66212C214784B1300A2FE6C /* TuneDoctorAppDelegate.m */; };
+		F66212C614784B1300A2FE6C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66212C414784B1300A2FE6C /* MainMenu.xib */; };
+		F66212CE14784E6D00A2FE6C /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66212CD14784E6D00A2FE6C /* ScriptingBridge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F66212AB14784B1200A2FE6C /* TuneDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuneDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66212AF14784B1200A2FE6C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F66212B214784B1200A2FE6C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F66212B314784B1200A2FE6C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F66212B414784B1200A2FE6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F66212B714784B1200A2FE6C /* TuneDoctor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TuneDoctor-Info.plist"; sourceTree = "<group>"; };
+		F66212B914784B1200A2FE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F66212BB14784B1200A2FE6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F66212BD14784B1200A2FE6C /* TuneDoctor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TuneDoctor-Prefix.pch"; sourceTree = "<group>"; };
+		F66212BF14784B1300A2FE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F66212C114784B1300A2FE6C /* TuneDoctorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TuneDoctorAppDelegate.h; sourceTree = "<group>"; };
+		F66212C214784B1300A2FE6C /* TuneDoctorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuneDoctorAppDelegate.m; sourceTree = "<group>"; };
+		F66212C514784B1300A2FE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F66212CC14784DEC00A2FE6C /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		F66212CD14784E6D00A2FE6C /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F66212A814784B1200A2FE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66212B014784B1200A2FE6C /* Cocoa.framework in Frameworks */,
+				F66212CE14784E6D00A2FE6C /* ScriptingBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F66212A014784B1200A2FE6C = {
+			isa = PBXGroup;
+			children = (
+				F66212B514784B1200A2FE6C /* Sourcecode */,
+				F66212AE14784B1200A2FE6C /* Frameworks */,
+				F66212AC14784B1200A2FE6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F66212AC14784B1200A2FE6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F66212AB14784B1200A2FE6C /* TuneDoctor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F66212AE14784B1200A2FE6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F66212CD14784E6D00A2FE6C /* ScriptingBridge.framework */,
+				F66212AF14784B1200A2FE6C /* Cocoa.framework */,
+				F66212B114784B1200A2FE6C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F66212B114784B1200A2FE6C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F66212B214784B1200A2FE6C /* AppKit.framework */,
+				F66212B314784B1200A2FE6C /* CoreData.framework */,
+				F66212B414784B1200A2FE6C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F66212B514784B1200A2FE6C /* Sourcecode */ = {
+			isa = PBXGroup;
+			children = (
+				F66212CC14784DEC00A2FE6C /* iTunes.h */,
+				F66212C114784B1300A2FE6C /* TuneDoctorAppDelegate.h */,
+				F66212C214784B1300A2FE6C /* TuneDoctorAppDelegate.m */,
+				F66212C414784B1300A2FE6C /* MainMenu.xib */,
+				F66212B614784B1200A2FE6C /* Supporting Files */,
+			);
+			name = Sourcecode;
+			path = iTunesTest;
+			sourceTree = "<group>";
+		};
+		F66212B614784B1200A2FE6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66212B714784B1200A2FE6C /* TuneDoctor-Info.plist */,
+				F66212B814784B1200A2FE6C /* InfoPlist.strings */,
+				F66212BB14784B1200A2FE6C /* main.m */,
+				F66212BD14784B1200A2FE6C /* TuneDoctor-Prefix.pch */,
+				F66212BE14784B1300A2FE6C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F66212AA14784B1200A2FE6C /* TuneDoctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66212C914784B1300A2FE6C /* Build configuration list for PBXNativeTarget "TuneDoctor" */;
+			buildPhases = (
+				F66212A714784B1200A2FE6C /* Sources */,
+				F66212A814784B1200A2FE6C /* Frameworks */,
+				F66212A914784B1200A2FE6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuneDoctor;
+			productName = iTunesTest;
+			productReference = F66212AB14784B1200A2FE6C /* TuneDoctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F66212A214784B1200A2FE6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F66212A514784B1200A2FE6C /* Build configuration list for PBXProject "TuneDoctor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F66212A014784B1200A2FE6C;
+			productRefGroup = F66212AC14784B1200A2FE6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F66212AA14784B1200A2FE6C /* TuneDoctor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F66212A914784B1200A2FE6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66212BA14784B1200A2FE6C /* InfoPlist.strings in Resources */,
+				F66212C014784B1300A2FE6C /* Credits.rtf in Resources */,
+				F66212C614784B1300A2FE6C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F66212A714784B1200A2FE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66212BC14784B1200A2FE6C /* main.m in Sources */,
+				F66212C314784B1300A2FE6C /* TuneDoctorAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F66212B814784B1200A2FE6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66212B914784B1200A2FE6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F66212BE14784B1300A2FE6C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66212BF14784B1300A2FE6C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F66212C414784B1300A2FE6C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66212C514784B1300A2FE6C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F66212C714784B1300A2FE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F66212C814784B1300A2FE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F66212CA14784B1300A2FE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunesTest/TuneDoctor-Prefix.pch";
+				INFOPLIST_FILE = "iTunesTest/TuneDoctor-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = TuneDoctor;
+				VALID_ARCHS = "x86_64 i386";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F66212CB14784B1300A2FE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunesTest/TuneDoctor-Prefix.pch";
+				INFOPLIST_FILE = "iTunesTest/TuneDoctor-Info.plist";
+				PRODUCT_NAME = TuneDoctor;
+				VALID_ARCHS = "x86_64 i386";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F66212A514784B1200A2FE6C /* Build configuration list for PBXProject "TuneDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66212C714784B1300A2FE6C /* Debug */,
+				F66212C814784B1300A2FE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66212C914784B1300A2FE6C /* Build configuration list for PBXNativeTarget "TuneDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66212CA14784B1300A2FE6C /* Debug */,
+				F66212CB14784B1300A2FE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F66212A214784B1200A2FE6C /* Project object */;
+}
