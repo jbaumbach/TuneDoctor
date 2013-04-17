@@ -94,7 +94,7 @@
 				F66212B614784B1200A2FE6C /* Supporting Files */,
 			);
 			name = Sourcecode;
-			path = iTunesTest;
+			path = Sourcecode;
 			sourceTree = "<group>";
 		};
 		F66212B614784B1200A2FE6C /* Supporting Files */ = {
@@ -125,7 +125,7 @@
 			dependencies = (
 			);
 			name = TuneDoctor;
-			productName = iTunesTest;
+			productName = TuneDoctor;
 			productReference = F66212AB14784B1200A2FE6C /* TuneDoctor.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -257,8 +257,8 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iTunesTest/TuneDoctor-Prefix.pch";
-				INFOPLIST_FILE = "iTunesTest/TuneDoctor-Info.plist";
+				GCC_PREFIX_HEADER = "Sourcecode/TuneDoctor-Prefix.pch";
+				INFOPLIST_FILE = "Sourcecode/TuneDoctor-Info.plist";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = TuneDoctor;
 				VALID_ARCHS = "x86_64 i386";
@@ -271,8 +271,8 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iTunesTest/TuneDoctor-Prefix.pch";
-				INFOPLIST_FILE = "iTunesTest/TuneDoctor-Info.plist";
+				GCC_PREFIX_HEADER = "Sourcecode/TuneDoctor-Prefix.pch";
+				INFOPLIST_FILE = "Sourcecode/TuneDoctor-Info.plist";
 				PRODUCT_NAME = TuneDoctor;
 				VALID_ARCHS = "x86_64 i386";
 				WRAPPER_EXTENSION = app;
