@@ -19,9 +19,6 @@
 /* Begin PBXFileReference section */
 		F66212AB14784B1200A2FE6C /* TuneDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuneDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66212AF14784B1200A2FE6C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		F66212B214784B1200A2FE6C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		F66212B314784B1200A2FE6C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		F66212B414784B1200A2FE6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F66212B714784B1200A2FE6C /* TuneDoctor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TuneDoctor-Info.plist"; sourceTree = "<group>"; };
 		F66212B914784B1200A2FE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F66212BB14784B1200A2FE6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,19 +66,8 @@
 			children = (
 				F66212CD14784E6D00A2FE6C /* ScriptingBridge.framework */,
 				F66212AF14784B1200A2FE6C /* Cocoa.framework */,
-				F66212B114784B1200A2FE6C /* Other Frameworks */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F66212B114784B1200A2FE6C /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F66212B214784B1200A2FE6C /* AppKit.framework */,
-				F66212B314784B1200A2FE6C /* CoreData.framework */,
-				F66212B414784B1200A2FE6C /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		F66212B514784B1200A2FE6C /* Sourcecode */ = {
@@ -93,7 +79,6 @@
 				F66212C414784B1300A2FE6C /* MainMenu.xib */,
 				F66212B614784B1200A2FE6C /* Supporting Files */,
 			);
-			name = Sourcecode;
 			path = Sourcecode;
 			sourceTree = "<group>";
 		};
