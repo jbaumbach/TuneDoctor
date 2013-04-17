@@ -46,6 +46,8 @@ How It Works
 ------------
 It's pretty simple.  iTunes allows a lot of automation.  TuneDoctor reads the selected songs, and then just tries to play each one of them.  Even though the song location appears to be missing in the iTunes database, it still knows where the song should be.  If iTunes finds it, the exclamation point goes away.
 
+![iTunes Y U No](itunes-y-u-no.jpg "iTunes YUNo")
+
 License
 -------
 Copyright (c) 2011-2013 John Baumbach <john.j.baumbach@gmail.com>
