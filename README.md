@@ -14,13 +14,15 @@ You can fix it manually yourself by playing each song, one by one.  That works, 
 
 Getting TuneDoctor
 ------------------
-If you're lazy like me, you just want to download and run the program.  Unfortunately, Github doesn't like large binaries anymore so I'm looking at alternatives.  In the meantime, if you're handy with XCode you can pretty easily make the app.  You need:
+If you're lazy like me, you just want to download and run the program.  Unfortunately, Github doesn't like large binaries anymore.  Until I can find a good alternative solution, you can get it running yourself with a few extra mouse clicks.  You need:
 
 * Mac OSX 10.6 or above / 64-bit
 * iTunes 10.0 or above (may work on older versions as well)
-* XCode 4.6.1 or above (may work on older versions as well)
+* Apple Xcode 4.6.1 or above (may work on older versions as well). Xcode is a free program by Apple that is used to create Mac and iOS apps.  If you don't have the latest version, you can get it quickly and for free from Apple: <https://developer.apple.com/xcode/> 
 
-Download the source code and open the project up in XCode.  Then run it or build the TuneDoctor.app file and run that.  You should see the screen above.  
+Download the source code using the links at the top of this page.  If you are already using Github's client, you can click "Clone in Mac".  Otherwise, just click the "Zip" link, then extract the files to a temp directory and open the project up in Xcode.  Then run it in Xcode (click __Product -> Run__).  You can also build the TuneDoctor.app application, which you can then copy to your "Applications" folder and run it anytime without having to go into XCode.  To do that, select __Product -> Build For -> Archiving__, then right click the __Products -> TuneDoctor.app__ link at the bottom of the solution listing on the left-hand side of Xcode and select __Show in Finder__.  
+
+When you run TuneDoctor.app, you should see the screen above.  If you do, then it built properly.  If not, make sure you have the proper versions of each of the programs listed above and update them as necessary.
 
 Using TuneDoctor
 ----------------
@@ -36,8 +38,9 @@ After the program runs, the exclamantion points should be gone.  You can then ge
 
 Stuff That Could Be Better
 --------------------------
-The program works, but there are a lot of nice enhancements that could be made.  Go ahead and grab the source and make it so.  Here are a few things to start with:
+The program works, but there are a lot of nice enhancements that could be made.  Go ahead and grab the source and make it so, then do a pull request and we'll get your enhancements out there for everyone else.  Here are a few things to start with:
 
+* Unit tests.  I am all about TDD now, but when I started this app I wasn't.
 * Implement background processes so the interface stays responsive if the connection is slow
 * Allow the user to cancel during operation
 * Cool icon
