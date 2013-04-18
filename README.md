@@ -10,7 +10,7 @@ For those of us with massive iTunes music libraries located on external storage 
 
 The Solution
 ------------
-You can fix it manually yourself by playing each song, one by one.  That works, but it takes forever.  This program takes the manual part out of it.  Just run iTunes, select the songs or albums with exclamation points to fix, run this program, and click the "Remove!" button.
+You can fix it manually yourself by playing each song, one by one.  That works, but it takes forever.  This program takes the manual part out of it.  Just run iTunes, select the songs or albums with exclamation points to fix, run this program, and click the "Clear Exclamations!" button.
 
 Getting TuneDoctor
 ------------------
