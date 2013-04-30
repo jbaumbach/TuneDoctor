@@ -12,6 +12,8 @@ The Solution
 ------------
 You can fix it manually yourself by playing each song, one by one.  That works, but it takes forever.  This program takes the manual part out of it.  Just run iTunes, select the songs or albums with exclamation points to fix, run this program, and click the "Clear Exclamations!" button.
 
+Note for Windows users: This program only works on the Mac, but I discovered this one recently for Windows that looks pretty nice: http://www.copytrans.net/copytranstunetastic-missing.php.
+
 Getting TuneDoctor
 ------------------
 If you're lazy like me, you just want to download and run the program.  Unfortunately, Github doesn't like large binaries anymore.  Until I can find a good alternative solution, you can get it running yourself with a few extra mouse clicks.  You need:
